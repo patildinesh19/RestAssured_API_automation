@@ -1,0 +1,9 @@
+base_url=https://petstore3.swagger.io/api/v3
+browser=Chrome
+API_KEY=0f1c05f9b3ceb98ce003f9ba25520500
+Book_details_base_url=https://bookstore.toolsqa.com
+QA_baseurl_Lets_Shop=https://www.rahulshettyacademy.com/api/ecom
+QA_Username_Lets_Shop=patildinesh19@hotmail.com
+QA_Password_Lets_Shop=DD123@dd123
+Excel_Sheet_Name=Resources\\TestData\\API_Test_Data.xlsx
+Json_schema_File_for_all_get_Product=Resources\\TestData\\JsonSchemavalidator_for_Get_All_Product.json

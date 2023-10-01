@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="LetsShop_Regression_Suite">
+	<test thread-count="5" name="Add Product and verify on home page and delete added Products">
+		<classes>
+			<class name="LetsShop.AddProduct" />
+			<class name="LetsShop.GetProductDetails" />
+			<class name="LetsShop.DeleteProducts" />
+		</classes>
+	</test> <!-- Add Product and verify on home page and delete added Products -->
+</suite> <!-- LetsShop_Regression_Suite -->

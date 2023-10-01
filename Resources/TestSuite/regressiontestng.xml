@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="API_AUTOMATION_Regression">
+  <test thread-count="5" name="Test">
+    <classes>
+      <class name="peatesapplication.Verifypeatasperstatus"/>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- SmokeSuite -->

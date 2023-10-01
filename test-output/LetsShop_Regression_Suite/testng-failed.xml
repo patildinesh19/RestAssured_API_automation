@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [LetsShop_Regression_Suite]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="Add Product and verify on home page and delete added Products(failed)">
+    <classes>
+      <class name="LetsShop.GetProductDetails">
+        <methods>
+          <include name="generatereport"/>
+          <include name="endreport"/>
+          <include name="executeCodeAfterEveryTestMethod"/>
+          <include name="verifyAddedProductUsingSingaletonLogin"/>
+        </methods>
+      </class> <!-- LetsShop.GetProductDetails -->
+    </classes>
+  </test> <!-- Add Product and verify on home page and delete added Products(failed) -->
+</suite> <!-- Failed suite [LetsShop_Regression_Suite] -->
