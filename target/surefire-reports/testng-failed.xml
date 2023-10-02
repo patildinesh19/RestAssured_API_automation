@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite parallel="none" name="Failed suite [LetsShop_Regression_Suite]" verbose="0">
+  <test parallel="none" name="Add Product and verify on home page and delete added Products(failed)">
+    <classes>
+      <class name="LetsShop.AddProduct">
+        <methods>
+          <include name="generatereport"/>
+          <include name="executeCodeAfterEveryTestMethod"/>
+          <include name="endreport"/>
+        </methods>
+      </class> <!-- LetsShop.AddProduct -->
+      <class name="LetsShop.GetProductDetails">
+        <methods>
+          <include name="executeCodeAfterEveryTestMethod"/>
+          <include name="verifyGetProductdetailsFromDB"/>
+        </methods>
+      </class> <!-- LetsShop.GetProductDetails -->
+      <class name="LetsShop.DeleteProducts">
+        <methods>
+          <include name="executeCodeAfterEveryTestMethod"/>
+        </methods>
+      </class> <!-- LetsShop.DeleteProducts -->
+    </classes>
+  </test> <!-- Add Product and verify on home page and delete added Products(failed) -->
+</suite> <!-- Failed suite [LetsShop_Regression_Suite] -->

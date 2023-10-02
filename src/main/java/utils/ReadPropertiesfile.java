@@ -62,4 +62,16 @@ public class ReadPropertiesfile {
 	{
 		return pr.getProperty("Json_schema_File_for_all_get_Product");
 	}
+	public String get_SQL_Link()
+	{
+		return pr.getProperty("SQL_Server_Connect_link");
+	}
+	public String get_SQL_UserName()
+	{
+		return pr.getProperty("SQL_Server_UserName");
+	}
+	public String get_SQL_Password()
+	{
+		return pr.getProperty("SQL_Server_Password");
+	}
 }

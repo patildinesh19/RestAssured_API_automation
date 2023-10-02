@@ -7,3 +7,6 @@ QA_Username_Lets_Shop=patildinesh19@hotmail.com
 QA_Password_Lets_Shop=DD123@dd123
 Excel_Sheet_Name=Resources\\TestData\\API_Test_Data.xlsx
 Json_schema_File_for_all_get_Product=Resources\\TestData\\JsonSchemavalidator_for_Get_All_Product.json
+SQL_Server_Connect_link=jdbc:sqlserver://LAPTOP-VN1CB8H2\\\\QA.database.windows.net:1433;database=Employee_Managment;encrypt=true;trustServerCertificate=true;loginTimeout=30;
+SQL_Server_UserName=sa
+SQL_Server_Password=DD123@dd123

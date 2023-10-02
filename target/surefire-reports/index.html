@@ -1,0 +1,384 @@
+<!DOCTYPE html>
+
+<html>
+  <head>
+  <title>TestNG reports</title>
+
+    <link type="text/css" href="testng-reports.css" rel="stylesheet" />  
+    <script type="text/javascript" src="jquery-1.7.1.min.js"></script>
+    <script type="text/javascript" src="testng-reports.js"></script>
+    <script type="text/javascript" src="https://www.google.com/jsapi"></script>
+    <script type='text/javascript'>
+      google.load('visualization', '1', {packages:['table']});
+      google.setOnLoadCallback(drawTable);
+      var suiteTableInitFunctions = new Array();
+      var suiteTableData = new Array();
+    </script>
+    <!--
+      <script type="text/javascript" src="jquery-ui/js/jquery-ui-1.8.16.custom.min.js"></script>
+     -->
+  </head>
+
+  <body>
+    <div class="top-banner-root">
+      <span class="top-banner-title-font">Test results</span>
+      <br/>
+      <span class="top-banner-font-1">1 suite</span>
+    </div> <!-- top-banner-root -->
+    <div class="navigator-root">
+      <div class="navigator-suite-header">
+        <span>All suites</span>
+        <a href="#" title="Collapse/expand all the suites" class="collapse-all-link">
+          <img src="collapseall.gif" class="collapse-all-icon">
+          </img> <!-- collapse-all-icon -->
+        </a> <!-- collapse-all-link -->
+      </div> <!-- navigator-suite-header -->
+      <div class="suite">
+        <div class="rounded-window">
+          <div class="suite-header light-rounded-window-top">
+            <a href="#" panel-name="suite-LetsShop_Regression_Suite" class="navigator-link">
+              <span class="suite-name border-passed">LetsShop_Regression_Suite</span>
+            </a> <!-- navigator-link -->
+          </div> <!-- suite-header light-rounded-window-top -->
+          <div class="navigator-suite-content">
+            <div class="suite-section-title">
+              <span>Info</span>
+            </div> <!-- suite-section-title -->
+            <div class="suite-section-content">
+              <ul>
+                <li>
+                  <a href="#" panel-name="test-xml-LetsShop_Regression_Suite" class="navigator-link ">
+                    <span>D:\Karate Framework\test1\Resources\TestSuite\Lets_Shop_Test.xml</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="testlist-LetsShop_Regression_Suite" class="navigator-link ">
+                    <span class="test-stats">1 test</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="group-LetsShop_Regression_Suite" class="navigator-link ">
+                    <span>0 groups</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="times-LetsShop_Regression_Suite" class="navigator-link ">
+                    <span>Times</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="reporter-LetsShop_Regression_Suite" class="navigator-link ">
+                    <span>Reporter output</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="ignored-methods-LetsShop_Regression_Suite" class="navigator-link ">
+                    <span>Ignored methods</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="chronological-LetsShop_Regression_Suite" class="navigator-link ">
+                    <span>Chronological view</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+              </ul>
+            </div> <!-- suite-section-content -->
+            <div class="result-section">
+              <div class="suite-section-title">
+                <span>Results</span>
+              </div> <!-- suite-section-title -->
+              <div class="suite-section-content">
+                <ul>
+                  <li>
+                    <span class="method-stats">5 methods,   5 passed</span>
+                  </li>
+                  <li>
+                    <span class="method-list-title passed">Passed methods</span>
+                    <span class="show-or-hide-methods passed">
+                      <a href="#" panel-name="suite-LetsShop_Regression_Suite" class="hide-methods passed suite-LetsShop_Regression_Suite"> (hide)</a> <!-- hide-methods passed suite-LetsShop_Regression_Suite -->
+                      <a href="#" panel-name="suite-LetsShop_Regression_Suite" class="show-methods passed suite-LetsShop_Regression_Suite"> (show)</a> <!-- show-methods passed suite-LetsShop_Regression_Suite -->
+                    </span>
+                    <div class="method-list-content passed suite-LetsShop_Regression_Suite">
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-LetsShop_Regression_Suite" title="LetsShop.AddProduct" class="method navigator-link" hash-for-method="addProductUsingSingletonlogin">addProductUsingSingletonlogin</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-LetsShop_Regression_Suite" title="LetsShop.DeleteProducts" class="method navigator-link" hash-for-method="deleteProductusingIDAndSingltoneLogin">deleteProductusingIDAndSingltoneLogin</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-LetsShop_Regression_Suite" title="LetsShop.GetProductDetails" class="method navigator-link" hash-for-method="validateJsonSchemaForGetAllProduct">validateJsonSchemaForGetAllProduct</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-LetsShop_Regression_Suite" title="LetsShop.GetProductDetails" class="method navigator-link" hash-for-method="verifyAddedProductUsingSingaletonLogin">verifyAddedProductUsingSingaletonLogin</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-LetsShop_Regression_Suite" title="LetsShop.GetProductDetails" class="method navigator-link" hash-for-method="verifyGetProductdetailsFromDB">verifyGetProductdetailsFromDB</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content passed suite-LetsShop_Regression_Suite -->
+                  </li>
+                </ul>
+              </div> <!-- suite-section-content -->
+            </div> <!-- result-section -->
+          </div> <!-- navigator-suite-content -->
+        </div> <!-- rounded-window -->
+      </div> <!-- suite -->
+    </div> <!-- navigator-root -->
+    <div class="wrapper">
+      <div class="main-panel-root">
+        <div panel-name="suite-LetsShop_Regression_Suite" class="panel LetsShop_Regression_Suite">
+          <div class="suite-LetsShop_Regression_Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">LetsShop.AddProduct</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="addProductUsingSingletonlogin">
+                  </a> <!-- addProductUsingSingletonlogin -->
+                  <span class="method-name">addProductUsingSingletonlogin</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-LetsShop_Regression_Suite-class-passed -->
+          <div class="suite-LetsShop_Regression_Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">LetsShop.GetProductDetails</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="validateJsonSchemaForGetAllProduct">
+                  </a> <!-- validateJsonSchemaForGetAllProduct -->
+                  <span class="method-name">validateJsonSchemaForGetAllProduct</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifyAddedProductUsingSingaletonLogin">
+                  </a> <!-- verifyAddedProductUsingSingaletonLogin -->
+                  <span class="method-name">verifyAddedProductUsingSingaletonLogin</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifyGetProductdetailsFromDB">
+                  </a> <!-- verifyGetProductdetailsFromDB -->
+                  <span class="method-name">verifyGetProductdetailsFromDB</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-LetsShop_Regression_Suite-class-passed -->
+          <div class="suite-LetsShop_Regression_Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">LetsShop.DeleteProducts</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="deleteProductusingIDAndSingltoneLogin">
+                  </a> <!-- deleteProductusingIDAndSingltoneLogin -->
+                  <span class="method-name">deleteProductusingIDAndSingltoneLogin</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-LetsShop_Regression_Suite-class-passed -->
+        </div> <!-- panel LetsShop_Regression_Suite -->
+        <div panel-name="test-xml-LetsShop_Regression_Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">D:\Karate Framework\test1\Resources\TestSuite\Lets_Shop_Test.xml</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <pre>
+&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;
+&lt;!DOCTYPE suite SYSTEM &quot;http://testng.org/testng-1.0.dtd&quot;&gt;
+&lt;suite parallel=&quot;none&quot; name=&quot;LetsShop_Regression_Suite&quot; verbose=&quot;0&quot;&gt;
+  &lt;test thread-count=&quot;5&quot; name=&quot;Add Product and verify on home page and delete added Products&quot;&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;LetsShop.AddProduct&quot;/&gt;
+      &lt;class name=&quot;LetsShop.GetProductDetails&quot;/&gt;
+      &lt;class name=&quot;LetsShop.DeleteProducts&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- Add Product and verify on home page and delete added Products --&gt;
+&lt;/suite&gt; &lt;!-- LetsShop_Regression_Suite --&gt;
+            </pre>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="testlist-LetsShop_Regression_Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Tests for LetsShop_Regression_Suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <ul>
+              <li>
+                <span class="test-name">Add Product and verify on home page and delete added Products (3 classes)</span>
+              </li>
+            </ul>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="group-LetsShop_Regression_Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Groups for LetsShop_Regression_Suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="times-LetsShop_Regression_Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Times for LetsShop_Regression_Suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="times-div">
+              <script type="text/javascript">
+suiteTableInitFunctions.push('tableData_LetsShop_Regression_Suite');
+function tableData_LetsShop_Regression_Suite() {
+var data = new google.visualization.DataTable();
+data.addColumn('number', 'Number');
+data.addColumn('string', 'Method');
+data.addColumn('string', 'Class');
+data.addColumn('number', 'Time (ms)');
+data.addRows(5);
+data.setCell(0, 0, 0)
+data.setCell(0, 1, 'addProductUsingSingletonlogin')
+data.setCell(0, 2, 'LetsShop.AddProduct')
+data.setCell(0, 3, 2956);
+data.setCell(1, 0, 1)
+data.setCell(1, 1, 'validateJsonSchemaForGetAllProduct')
+data.setCell(1, 2, 'LetsShop.GetProductDetails')
+data.setCell(1, 3, 573);
+data.setCell(2, 0, 2)
+data.setCell(2, 1, 'verifyGetProductdetailsFromDB')
+data.setCell(2, 2, 'LetsShop.GetProductDetails')
+data.setCell(2, 3, 330);
+data.setCell(3, 0, 3)
+data.setCell(3, 1, 'verifyAddedProductUsingSingaletonLogin')
+data.setCell(3, 2, 'LetsShop.GetProductDetails')
+data.setCell(3, 3, 166);
+data.setCell(4, 0, 4)
+data.setCell(4, 1, 'deleteProductusingIDAndSingltoneLogin')
+data.setCell(4, 2, 'LetsShop.DeleteProducts')
+data.setCell(4, 3, 157);
+window.suiteTableData['LetsShop_Regression_Suite']= { tableData: data, tableDiv: 'times-div-LetsShop_Regression_Suite'}
+return data;
+}
+              </script>
+              <span class="suite-total-time">Total running time: 4 seconds</span>
+              <div id="times-div-LetsShop_Regression_Suite">
+              </div> <!-- times-div-LetsShop_Regression_Suite -->
+            </div> <!-- times-div -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="reporter-LetsShop_Regression_Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Reporter output for LetsShop_Regression_Suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="ignored-methods-LetsShop_Regression_Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">4 ignored methods</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="ignored-class-div">
+              <span class="ignored-class-name">LetsShop.GetProductDetails</span>
+              <div class="ignored-methods-div">
+                <span class="ignored-method-name">generatereport</span>
+                <br/>
+                <span class="ignored-method-name">endreport</span>
+                <br/>
+              </div> <!-- ignored-methods-div -->
+            </div> <!-- ignored-class-div -->
+            <div class="ignored-class-div">
+              <span class="ignored-class-name">LetsShop.DeleteProducts</span>
+              <div class="ignored-methods-div">
+                <span class="ignored-method-name">generatereport</span>
+                <br/>
+                <span class="ignored-method-name">endreport</span>
+                <br/>
+              </div> <!-- ignored-methods-div -->
+            </div> <!-- ignored-class-div -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="chronological-LetsShop_Regression_Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Methods in chronological order</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="chronological-class">
+              <div class="chronological-class-name">LetsShop.AddProduct</div> <!-- chronological-class-name -->
+              <div class="configuration-suite before">
+                <span class="method-name">generatereport</span>
+                <span class="method-start">0 ms</span>
+              </div> <!-- configuration-suite before -->
+              <div class="test-method">
+                <span class="method-name">addProductUsingSingletonlogin</span>
+                <span class="method-start">92 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">executeCodeAfterEveryTestMethod([TestResult name=addProductUsingSingletonlogin status=SUCCESS method=AddProduct.addProductUsingSingl...)</span>
+                <span class="method-start">3048 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">LetsShop.GetProductDetails</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">validateJsonSchemaForGetAllProduct</span>
+                <span class="method-start">3050 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">executeCodeAfterEveryTestMethod([TestResult name=validateJsonSchemaForGetAllProduct status=SUCCESS method=GetProductDetails.validate...)</span>
+                <span class="method-start">3623 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="test-method">
+                <span class="method-name">verifyAddedProductUsingSingaletonLogin</span>
+                <span class="method-start">3624 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">executeCodeAfterEveryTestMethod([TestResult name=verifyAddedProductUsingSingaletonLogin status=SUCCESS method=GetProductDetails.veri...)</span>
+                <span class="method-start">3790 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="test-method">
+                <span class="method-name">verifyGetProductdetailsFromDB</span>
+                <span class="method-start">3790 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">executeCodeAfterEveryTestMethod([TestResult name=verifyGetProductdetailsFromDB status=SUCCESS method=GetProductDetails.verifyGetProd...)</span>
+                <span class="method-start">4120 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">LetsShop.DeleteProducts</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">deleteProductusingIDAndSingltoneLogin</span>
+                <span class="method-start">4121 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">executeCodeAfterEveryTestMethod([TestResult name=deleteProductusingIDAndSingltoneLogin status=SUCCESS method=DeleteProducts.deletePr...)</span>
+                <span class="method-start">4278 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">LetsShop.AddProduct</div> <!-- chronological-class-name -->
+              <div class="configuration-suite after">
+                <span class="method-name">endreport</span>
+                <span class="method-start">4297 ms</span>
+              </div> <!-- configuration-suite after -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+      </div> <!-- main-panel-root -->
+    </div> <!-- wrapper -->
+  </body>
+</html>

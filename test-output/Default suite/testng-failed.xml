@@ -5,7 +5,10 @@
     <classes>
       <class name="LetsShop.GetProductDetails">
         <methods>
-          <include name="verifyHomePageShowAllProducts"/>
+          <include name="generatereport"/>
+          <include name="endreport"/>
+          <include name="executeCodeAfterEveryTestMethod"/>
+          <include name="verifyGetProductdetailsFromDB"/>
         </methods>
       </class> <!-- LetsShop.GetProductDetails -->
     </classes>

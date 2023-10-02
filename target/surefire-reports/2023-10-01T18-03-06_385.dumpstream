@@ -1,0 +1,5 @@
+# Created at 2023-10-01T18:03:06.616
+Boot Manifest-JAR contains absolute paths in classpath 'D:\Karate Framework\test1\target\test-classes'
+Hint: <argLine>-Djdk.net.URLClassPath.disableClassPathURLCheck=true</argLine>
+'other' has different root
+
