@@ -1,7 +1,5 @@
 package core;
 
-import static org.testng.Assert.ARRAY_MISMATCH_TEMPLATE;
-
 import org.testng.ITestResult;
 import org.testng.annotations.AfterMethod;
 import org.testng.annotations.AfterSuite;
